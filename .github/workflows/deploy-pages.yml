@@ -58,7 +58,7 @@ jobs:
 
       # 构建 VitePress 项目
       - name: Build VitePress site
-        run: npm run build --prefix docs
+        run: npm run build
 
       # 资源拷贝
       - name: Build with Jekyll
