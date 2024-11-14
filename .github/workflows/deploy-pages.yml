@@ -1,52 +1,40 @@
 name: Deploy Pages
 
-# 触发条件，push到main分支或者pull request到main分支
 on:
   push:
     branches: [main]
   pull_request:
     branches: [main]
-
-  # 支持手动在工作流上触发
   workflow_dispatch:
 
-# 设置时区
 env:
   TZ: Asia/Shanghai
 
-# 权限设置
 permissions:
-  # 允许读取仓库内容的权限。
   contents: read
-  # 允许写入 GitHub Pages 的权限。
   pages: write
-  # 允许写入 id-token 的权限。
   id-token: write
 
-# 并发控制配置
 concurrency:
   group: pages
   cancel-in-progress: false
 
-# 定义执行任务
 jobs:
-  # 构建任务
   build:
     runs-on: ubuntu-latest
 
-    # 使用 Node.js 20 版本
     strategy:
       matrix:
         node-version: [20]
 
     steps:
-      # 拉取代码
+      # 检出代码
       - name: Checkout
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
 
-      # 设置使用 Node.js 版本
+      # 设置 Node.js 版本
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
@@ -54,27 +42,25 @@ jobs:
 
       # 安装依赖
       - name: Install dependencies
-        run: npm install
+        run: npm ci
+
+      # 确保 VitePress 可执行
+      - name: Ensure vitepress is executable
+        run: chmod +x ./node_modules/.bin/vitepress
 
       - name: Ensure vitepress is executable
         run: chmod +x ./node_modules/.bin/vitepress
 
-      # 构建 VitePress 项目
+      # 构建 VitePress 网站
       - name: Build VitePress site
         run: npm run build
 
-      # 资源拷贝
-      - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
-        with:
-          source: ./docs/.vitepress/dist
-          destination: ./_site
-
-      # 上传 _site 的资源，用于后续部署
+      # 上传构建的文件夹到 artifact，用于后续部署
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs/.vitepress/dist
 
-  # 部署任务
   deploy:
     environment:
       name: github-pages
