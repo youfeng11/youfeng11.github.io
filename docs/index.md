@@ -1,25 +1,18 @@
----
-# https://vitepress.dev/reference/default-theme-home-page
-layout: home
+# SFS简体中文语言包
 
-hero:
-  name: "由风的官方网站"
-  text: "Android业余开发者由风的官方网站"
-  tagline: My great project tagline
-  actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+## 介绍
+[航天模拟器（Spaceflight Simulator）](https://www.spaceflightsimulator.com/)的第三方汉化包
 
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
----
+旨在维护SFS官方简体中文
 
+### 适用版本
+- 1.5.10.5
+
+## 注意
+该汉化不对游戏旧版本作维护与适配
+
+## 接入API
+你可以接入[info.json](https://gitee.com/YouFeng11/SFS-zh-CN-Translation/raw/master/info.json)获取汉化包信息
+
+## 开源协议
+MIT License
