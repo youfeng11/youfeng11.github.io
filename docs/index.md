@@ -1,18 +1,25 @@
-# SFS简体中文语言包
+---
+# https://vitepress.dev/reference/default-theme-home-page
+layout: home
 
-## 介绍
-[航天模拟器（Spaceflight Simulator）](https://www.spaceflightsimulator.com/)的第三方汉化包
+hero:
+  name: "由风的个人网站"
+  text: "一名业余Android开发者"
+  tagline: 注重细节，我伟大的项目口号！
+  actions:
+    - theme: brand
+      text: Markdown示例
+      link: /markdown-examples
+    - theme: alt
+      text: API示例
+      link: /api-examples
 
-旨在维护SFS官方简体中文
+features:
+  - title: Feature A
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Feature B
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Feature C
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+---
 
-### 适用版本
-- 1.5.10.5
-
-## 注意
-该汉化不对游戏旧版本作维护与适配
-
-## 接入API
-你可以接入[info.json](https://gitee.com/YouFeng11/SFS-zh-CN-Translation/raw/master/info.json)获取汉化包信息
-
-## 开源协议
-MIT License

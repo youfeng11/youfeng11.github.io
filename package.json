@@ -1,30 +1,17 @@
 {
   "name": "youfeng11.github.io",
   "version": "1.0.0",
-  "description": "由风的官方网站",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vitepress dev docs",
-    "build": "vitepress build",
-    "preview": "vitepress preview docs",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/youfeng11/youfeng11.github.io.git"
-  },
-  "keywords": [
-    "youfeng-11"
-  ],
+  "keywords": [],
   "author": "由风",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/youfeng11/youfeng11.github.io/issues"
-  },
-  "homepage": "https://github.com/youfeng11/youfeng11.github.io#readme",
+  "description": "",
   "devDependencies": {
     "vitepress": "^1.5.0"
   }

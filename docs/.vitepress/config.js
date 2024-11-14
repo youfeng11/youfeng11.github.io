@@ -1,14 +1,10 @@
 // .vitepress/config.js
-const base = "/youfeng11.github.io/";
-import { defineConfig } from 'vitepress';
 export default {
-  base,
   // 站点级选项
-  title: '由风的官方网站',
-  description: 'Just playing around.',
+  title: '由风的个人网站',
+  description: '只是玩玩而已。',
 
   themeConfig: {
     // 主题级选项
   }
-  outDir: './.vitepress/dist'
 }

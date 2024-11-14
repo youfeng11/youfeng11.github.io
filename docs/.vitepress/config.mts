@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "由风的官方网站",
-  description: "Android业余开发者由风的官方网站",
+  title: "由风的个人网站",
+  description: "Android业余开发者由风的个人网站",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
