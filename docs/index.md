@@ -4,22 +4,23 @@ layout: home
 
 hero:
   name: "由风的个人网站"
-  text: "一名业余Android软件开发者"
-  tagline: 加入我们的QQ群：539945982
+  text: "一名业余Android开发者"
+  tagline: "不要试图去做一个成功的人，要努力成为一个有价值的人。    ——阿尔伯特·爱因斯坦"
+  image:
+      src: /logo.jpg
+      alt: YouFeng11
   actions:
     - theme: brand
-      text: Markdown示例
-      link: /markdown-examples
+      text: 关于我
+      link: /about-me
     - theme: alt
-      text: API示例
-      link: /api-examples
+      text: 我的作品
+      link: /about-me
 
 features:
-  - title: 唯物主义者
-    details: 一名决定的唯物主义者
-  - title: 服刑中😴
-    details: 你们说，有没有一种可能，我还在市第二监狱高中服刑
-  - title: 注重细节
-    details: 细节决定成败！
+  - title: QQ群
+    details: 加入我们的QQ群：539945982
+  - title: 电子邮箱
+    details: 通过电子邮箱联系我：youfeng11@outlook.com
 ---
 

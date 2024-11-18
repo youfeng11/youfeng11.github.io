@@ -1,12 +1,12 @@
 # Node modules
-node_modules/
+/node_modules
 
 # Dist files
-dist/
-lib/
+/dist
+/lib
 
 # Test coverage files
-coverage/
+/coverage
 
 # MacOS Desktop Services Store
 .DS_Store
@@ -19,7 +19,7 @@ coverage/
 .vscode
 
 # Temp files
-cache/
+/cache
 .vite_opt_cache
 
 # Other files
