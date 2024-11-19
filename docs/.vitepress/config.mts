@@ -12,23 +12,19 @@ export default defineConfig({
     nav: [
       { text: '主页', link: '/' },
       { text: '关于我', link: '/about-me' },
-      { text: '作品', link: '/about-me' }
+      { text: '作品', items: [
+          {
+            text: "SFS简体中文语言包",
+            link: 'https://gitee.com/YouFeng11/SFS-zh-CN-Translation'
+          }
+        ]
+      }
     ],
 
     editLink: {
       pattern: 'https://github.com/youfeng11/youfeng11.github.io/edit/main/docs/:path',
       text: '在 GitHub 上编辑此页面'
     },
-
-    sidebar: [
-      {
-        text: '作品',
-        items: [
-          { text: 'Markdown示例', link: '/about-me' },
-          { text: 'Runtime API 示例', link: '/api-examples' }
-        ]
-      }
-    ],
 
     footer: {
       message: '基于 CC BY-SA 4.0 许可发布',

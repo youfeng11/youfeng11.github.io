@@ -11,9 +11,8 @@
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
   },
-  "keywords": [],
   "author": "由风",
-  "license": "ISC",
+  "license": "CC BY-SA 4.0",
   "description": "",
   "devDependencies": {
     "vitepress": "^1.5.0"
