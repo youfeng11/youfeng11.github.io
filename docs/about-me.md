@@ -16,7 +16,13 @@
 
 ### 📞 联系
 
-[![Bilibili](https://img.shields.io/badge/%40由风11-FF6699?style=flat-square&logo=bilibili&logoColor=FFFFFF&labelColor=FF6699)](https://b23.tv/HMTezn9) [![Email](https://img.shields.io/badge/youfeng11%40outlook.com-53A9F2?style=flat-square&logo=mailbox.org&logoColor=FFFFFF&labelColor=53A9F2)](mailto:youfeng11@outlook.com) [![GitHub](https://img.shields.io/badge/%40youfeng11-C71D23?style=flat-square&logo=github&logoColor=FFFFFF&labelColor=C71D23)](https://github.com/youfeng11) [![Gitee](https://img.shields.io/badge/%40YouFeng11-C71D23?style=flat-square&logo=gitee&logoColor=FFFFFF&labelColor=C71D23)](https://gitee.com/YouFeng11)
+[![Bilibili](https://img.shields.io/badge/%40由风11-FF6699?style=flat-square&logo=bilibili&logoColor=FFFFFF&labelColor=FF6699)](https://b23.tv/HMTezn9)
+
+[![Email](https://img.shields.io/badge/youfeng11%40outlook.com-53A9F2?style=flat-square&logo=mailbox.org&logoColor=FFFFFF&labelColor=53A9F2)](mailto:youfeng11@outlook.com)
+
+[![GitHub](https://img.shields.io/badge/%40youfeng11-181717?style=flat-square&logo=github&logoColor=FFFFFF&labelColor=181717)](https://github.com/youfeng11)
+
+[![Gitee](https://img.shields.io/badge/%40YouFeng11-C71D23?style=flat-square&logo=gitee&logoColor=FFFFFF&labelColor=C71D23)](https://gitee.com/YouFeng11)
 
 ### 🐧 QQ群
 
