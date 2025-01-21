@@ -18,6 +18,8 @@
 
 [![Redmi K30 Pro](https://img.shields.io/badge/Redmi%20K30%20Pro-FF6900?style=flat-square&logo=xiaomi&logoColor=FFFFFF&labelColor=FF6900)](https://www.mi.com/redmik30pro)
 
+[![iQOO Neo 855](https://img.shields.io/badge/iQOO%20Neo%20855-415FFF?style=flat-square&logo=vivo&logoColor=FFFFFF&labelColor=415FFF)](https://www.vivo.com/cn/vivo/iqooneo855)
+
 ### 📞 联系
 
 - 哔哩哔哩：https://b23.tv/HMTezn9
