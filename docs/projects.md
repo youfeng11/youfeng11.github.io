@@ -2,7 +2,7 @@
 
 ## SFS简体中文语言包
 
-链接：官网、[Gitee](https://gitee.com/YouFeng11/SFS-zh-CN-Translation)
+链接：官网（未开通）、[Gitee](https://gitee.com/YouFeng11/SFS-zh-CN-Translation)
 
 ## 航天模拟器安装器
 
