@@ -8,7 +8,6 @@ titleTemplate: 一名业余Android开发者
 hero:
   name: "由风的个人网站"
   text: "一名业余Android开发者"
-  tagline: "不要试图去做一个成功的人，要努力成为一个有价值的人。    ——阿尔伯特·爱因斯坦"
   image:
       src: /logo.png
       alt: YouFeng11
@@ -21,17 +20,19 @@ hero:
       link: /projects
 
 features:
-  - title: QQ群
-    details: 加入我们的QQ群：539945982
-  - title: 电子邮箱
-    details: 通过电子邮箱联系我：youfeng11@outlook.com
+  - title: Android开发
+    details: 使用Kotlin编程语言，目前正致力于移动设备 Jetpack Compose 开发
+  - title: Web开发
+    details: 目前正致力于基于 VitePress 的静态网页制作
+  - title: 游戏翻译
+    details: 持续为航天模拟器的汉化更新
 ---
 <style>
 :root {
   --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #FFDE13 30%, #F83030);
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #B69300 30%, #F83030);
 
-  --vp-home-hero-image-background-image: linear-gradient(-45deg, #00B6FF 50%, #00FF4D 50%);
+  --vp-home-hero-image-background-image: linear-gradient(-45deg, #00B6FF 40%, #00FF4D 60%);
   --vp-home-hero-image-filter: blur(68px);
 }
 
