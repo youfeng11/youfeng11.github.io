@@ -21,7 +21,7 @@ hero:
 
 features:
   - title: Android开发
-    details: 使用Kotlin编程语言，目前正致力于基于 Jetpack Compose 的APP开发
+    details: 使用Kotlin编程语言，目前正致力于基于 Jetpack Compose 的Android移动设备的APP开发
   - title: Web开发
     details: 目前正致力于基于 VitePress 的静态网页制作
   - title: 游戏翻译

@@ -1,5 +1,7 @@
 # 由风的个人网站
 
+*如果你正在访问*
+
 ## 鸣谢
 
 [VitePress](https://github.com/vuejs/vitepress)——由 Vite 和 Vue 驱动的静态站点生成器：[MIT License](https://github.com/vuejs/vitepress/blob/main/LICENSE)
