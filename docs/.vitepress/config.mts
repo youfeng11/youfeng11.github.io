@@ -6,7 +6,7 @@ export default defineConfig({
   title: "由风的个人网站",
   description: "Android业余开发者由风的个人网站",
   themeConfig: {
-    logo: { src: '/logo.jpg', width: 24, height: 24 },
+    logo: { src: '/logo.png', width: 24, height: 24 },
 
     // https://vitepress.dev/reference/default-theme-config
     nav: [

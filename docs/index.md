@@ -10,7 +10,7 @@ hero:
   text: "一名业余Android开发者"
   tagline: "不要试图去做一个成功的人，要努力成为一个有价值的人。    ——阿尔伯特·爱因斯坦"
   image:
-      src: /logo.jpg
+      src: /logo.png
       alt: YouFeng11
   actions:
     - theme: brand
