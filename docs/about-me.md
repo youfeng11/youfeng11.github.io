@@ -16,7 +16,9 @@
 
 ### 📞 联系
 
-[![Bilibili](https://img.shields.io/badge/%40由风11-FF6699?style=flat-square&logo=bilibili&logoColor=FFFFFF&labelColor=FF6699)](https://b23.tv/HMTezn9)
+[![bilibili](https://img.shields.io/badge/%40由风11-FF6699?style=flat-square&logo=bilibili&logoColor=FFFFFF&labelColor=FF6699)](https://b23.tv/HMTezn9)
+
+[![QQ](https://img.shields.io/badge/458643074-1EBAFC?style=flat-square&logo=QQ&logoColor=FFFFFF&labelColor=1EBAFC)](https://qm.qq.com/q/VXVMTN34EE)
 
 [![Email](https://img.shields.io/badge/youfeng11%40outlook.com-53A9F2?style=flat-square&logo=mailbox.org&logoColor=FFFFFF&labelColor=53A9F2)](mailto:youfeng11@outlook.com)
 

@@ -56,6 +56,9 @@ export default defineConfig({
     darkModeSwitchTitle: '切换到深色模式',
 
     socialLinks: [
+      { icon: 'bilibili', link: 'https://b23.tv/HMTezn9' },
+      { icon: 'qq', link: 'https://qm.qq.com/q/VXVMTN34EE' },
+      { icon: 'gmail', link: 'mailto:youfeng11@outlook.com' },
       { icon: 'github', link: 'https://github.com/youfeng11' },
       { icon: 'gitee', link: 'https://gitee.com/YouFeng11' }
     ]
