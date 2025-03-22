@@ -1,6 +1,6 @@
 # 由风的个人网站
 
-**如果你在访问youfeng11.github.io链接时处于该页面，那么请稍后再访问，如果一直保持在该页面，请联系开发者！**
+**如果你在访问youfeng11.github.io链接时处于该页面，那么请稍后再访问。如果一直保持在该页面，请联系开发者！**
 
 ## 鸣谢
 
@@ -10,4 +10,4 @@
 
 基于 **[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)** 许可发布
 
-版权所有 © 2024-现在 由风
+Copyright © 2024-现在 KernelSU 由风。

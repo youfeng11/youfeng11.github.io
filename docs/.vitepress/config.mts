@@ -27,8 +27,8 @@ export default defineConfig({
     },
 
     footer: {
-      message: '基于 <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a> 许可发布',
-      copyright: `版权所有 © 2024-现在 由风`
+      message: '基于 <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a> 许可发布。',
+      copyright: `Copyright © 2024-现在 由风。`
     },
 
     docFooter: {
