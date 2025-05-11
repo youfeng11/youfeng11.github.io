@@ -10,4 +10,4 @@
 
 基于 **[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)** 许可发布
 
-Copyright © 2024-现在 KernelSU 由风。
+Copyright © 2024-现在 由风。
