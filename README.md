@@ -1,7 +1,15 @@
-## 重铬酸钠的个人主页
+## 由风的个人主页
 
-个人 HTML + CSS 学习成果之一
+### 开源协议
 
-## Thanks
+[MIT License](LICENSE)
 
-1. [Font Awesome](/fontawesome/LICENSE.txt)
+### Credits
+
+1. [重铬酸钠的个人主页](https://github.com/sTheNight/HomePage)
+
+2. [Font Awesome](/fontawesome/LICENSE.txt)
+
+#### 特别鸣谢
+
+- [重铬酸钠](https://github.com/sTheNight)
