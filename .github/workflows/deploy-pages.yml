@@ -34,17 +34,16 @@ jobs:
         with:
           node-version: 20
 
-      - name: Build project
-        run: bash ./build.sh
+      - name: Install LESS
+        run: npm install -g less
 
-      - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
-        with:
-          source: ./buildfiles/css
-          destination: ./_site
+      - name: Build LESS files
+        run: lessc less/styles.less buildfiles/css/styles.css
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
+        with:
+          path: buildfiles/css
 
   deploy:
     environment:
