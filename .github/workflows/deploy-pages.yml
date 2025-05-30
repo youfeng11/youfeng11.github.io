@@ -37,6 +37,9 @@ jobs:
       - name: Install LESS
         run: npm install -g less
 
+      - name: Create buildfiles directory
+        run: mkdir -p buildfiles/css
+
       - name: Build LESS files
         run: lessc less/styles.less buildfiles/css/styles.css
 
