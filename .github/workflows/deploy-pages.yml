@@ -34,19 +34,16 @@ jobs:
         with:
           node-version: 20
 
-      - name: Install LESS
-        run: npm install -g less
+      - name: Install dependencies
+        run: npm install
 
-      - name: Create buildfiles directory
-        run: mkdir -p buildfiles/css
-
-      - name: Build LESS files
-        run: lessc less/styles.less buildfiles/css/styles.css
+      - name: Build project
+        run: npm run build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: buildfiles/css
+          path: ./dist
 
   deploy:
     environment:
