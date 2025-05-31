@@ -14,7 +14,7 @@
 
 ### Credits
 
-- [重铬酸钠的个人主页](https://github.com/sTheNight/HomePage)
+- [重铬酸钠的个人主页](https://github.com/sTheNight/HomePage)：[MIT License](https://github.com/sTheNight/HomePage/blob/main/LICENSE)
 
 #### 特别鸣谢
 
