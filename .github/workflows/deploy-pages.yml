@@ -40,10 +40,13 @@ jobs:
       - name: Build project
         run: npm run build
 
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./dist
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./dist
 
   deploy:
     environment:
