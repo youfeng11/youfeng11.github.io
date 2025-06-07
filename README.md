@@ -5,9 +5,10 @@
 本项目使用 Vite 打包，你需要进行的操作步骤如下：
 
 ```shell
-    npm install
-    npm run build
+npm install
+npm run build
 ```
+
 ### 开源协议
 
 [MIT License](LICENSE)
