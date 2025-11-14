@@ -31,13 +31,16 @@ jobs:
           node-version: 22
 
       - name: Install pnpm
-        run: npm install -g pnpm@10
+        run: npm install -g pnpm
 
       - name: Install dependencies
         run: pnpm install
 
       - name: Build project
         run: pnpm run build
+
+      - name: Add .nojekyll to ensure correct MIME types
+        run: touch dist/.nojekyll
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
