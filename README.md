@@ -1,22 +1,24 @@
-## 由风的个人主页
+# 由风的个人主页
 
-### 打包方式
-
-本项目使用 Vite 打包，你需要进行的操作步骤如下：
+目前似乎尚在开发中，如果你想品鉴一下的话请执行如下命令：
 
 ```shell
-npm install
-npm run build # or npx vite build
+pnpm i
+pnpm build
 ```
 
-### 开源协议
+## Note
+
+此项目当前尚有一些 ~~(很多)~~ 问题，请谨慎使用
+
+# 开源协议
 
 [MIT License](LICENSE)
 
-### Credits
+# Credits
 
-- [重铬酸钠的个人主页](https://github.com/sTheNight/HomePage)：[MIT License](https://github.com/sTheNight/HomePage/blob/main/LICENSE)
+- [重铬酸钠的个人主页](https://github.com/sTheNight/MyNewHomePage)：[MIT License](https://github.com/sTheNight/MyNewHomePage/blob/main/LICENSE)
 
-#### 特别鸣谢
+## 特别鸣谢
 
 - [重铬酸钠](https://github.com/sTheNight)

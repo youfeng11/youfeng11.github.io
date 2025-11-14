@@ -1,0 +1,76 @@
+// 主页切换加载动画
+.fade-enter-active,
+.fade-leave-active {
+    transition: all .3s;
+}
+
+.fade-enter-from {
+    transform: translateY(-100%);
+}
+
+.fade-enter-to {
+    transform: translateY(0);
+}
+
+.fade-leave-from {
+    transform: translateY(0);
+}
+
+.fade-leave-to {
+    transform: translateY(100%);
+}
+
+// 主页初次加载动画
+.loading-enter-active,
+.loading-leave-active {
+    transition: all .5s;
+}
+
+.loading-enter-to {
+    transform: scale(1);
+    filter: blur(0);
+}
+
+.loading-enter-from {
+    transform: scale(1.8);
+    filter: blur(8px);
+}
+
+// 底部按钮组加载动画
+.bottom-button-transition-enter-active,
+.bottom-button-transition-leave-active {
+    transition: all .5s;
+}
+
+.bottom-button-transition-enter-from,
+.bottom-button-transition-leave-to {
+    transform: translateY(100%);
+    opacity: 0;
+}
+
+.bottom-button-transition-enter-to,
+.bottom-button-transition-leave-from {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.hitokoto-transition-enter-active,
+.hitokoto-transition-leave-active {
+    transition: all 0.3s ease;
+}
+
+.hitokoto-transition-enter-from {
+    opacity: 0;
+    transform: translateX(-10px);
+}
+
+.hitokoto-transition-enter-to,
+.hitokoto-transition-leave-from {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.hitokoto-transition-leave-to {
+    opacity: 0;
+    transform: translateX(10px);
+}
